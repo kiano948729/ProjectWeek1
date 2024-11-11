@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/style.css">
 <h1>
     <p>de lessen in deze opleiding</p>
 </h1>

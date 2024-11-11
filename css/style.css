@@ -174,7 +174,12 @@ header {
 
 
 /* lessen pagina */
-
+.lessen-Website{
+    display: flex;
+    border:solid; color: pink;
+    margin-left: 15%;
+    width: 70%;
+}
 
 
 

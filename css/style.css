@@ -7,14 +7,12 @@ body {
     background-color: rgb(141, 142, 145);
 }
 
-/* index pagina */
 
-/* General Header Styling */
 header {
     margin: 0 auto;
     padding: 10px 0;
-    width: 90%; /* Adjusted for responsiveness */
-    max-width: 1200px; /* Max width for large screens */
+    width: 90%; 
+    max-width: 1200px; 
 }
 
 .header-container {
@@ -23,13 +21,11 @@ header {
     align-items: center;
 }
 
-/* Title (Logo) Section */
 .title img {
-    height: 60px; /* Adjusted logo height */
+    height: 60px; 
     width: auto;
 }
 
-/* Navigation Links */
 .nav-links {
     display: flex;
     gap: 20px;
@@ -38,7 +34,7 @@ header {
 }
 
 .nav-links a {
-    color: black;
+    color: #fff;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;

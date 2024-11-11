@@ -276,7 +276,9 @@ header {
 .ButtonsMedia {
     display: flex;
     justify-content: center;
-    background-color: rgba(64, 44, 84)
+    background-color: rgba(64, 44, 84);
+    width: ;
+    
 }
 
 

@@ -1,36 +1,33 @@
-<<<<<<< HEAD
 <h1>
     de lessen in deze opleiding
 </h1>
-<div>
-    website 1
+<div lesson-Website>
+   <P>website 1</P>
 </div>
 <div>
-    basis-programmeren
+    <p>basis-programmeren</p>
 </div>
 <div>
-    engels 
+    <p>engels</p> 
 </div>
 <div>
-    nederlands  
+    <p>nederlands</p>
 </div>
 <div>
-    rekenen
+    <p>rekenen</p>
 </div>
 <div>
-    burgerschap
+    <p>burgerschap</p>
 </div>
 <div>
-    SLB
+    <p>SLB</p>
 </div>
 <div>
-    sport op maat
+   <p>sport op maat</p>
 </div>
 <div>
-    projectweek
+    <p>projectweek</p>
 </div>
-=======
 <?php
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
->>>>>>> 392c6fa10cb7498ed92c3d75870afec252b02071

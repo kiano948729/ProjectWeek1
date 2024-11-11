@@ -1,6 +1,7 @@
 <div>
     <p>
-        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non porro quidem doloremque, dicta cum quas hic fuga veritatis optio accusamus eligendi molestias sunt amet placeat quos iste facilis aut mollitia.</h2>
+        <h1 class="TextZwart">3 bedrijven</h1>
+        <h2 class="TextZwart">de bedrijven die java gebruiken: Portbase, Picnic en Axiom Software Solutions</h2>
     </p>
 </div>
 

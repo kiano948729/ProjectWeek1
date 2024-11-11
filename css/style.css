@@ -57,6 +57,11 @@ header {
     background: rgba(255, 255, 255, 0.2); 
 }
 
+.TextZwart {
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .nav-links a.active,
 .nav-links a:hover {
     background: rgba(255, 255, 255, 0.4);
@@ -191,7 +196,12 @@ header {
 
 
 /* lessen pagina */
-
+.lessen-Website{
+    display: flex;
+    border:solid; color: pink;
+    margin-left: 15%;
+    width: 70%;
+}
 
 
 
@@ -298,12 +308,22 @@ header {
 .ButtonsMedia {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: rgba(64, 44, 84);
     width: 100%;
-    gap: 5px;
+    height: 200px;
 }
-
-
+.ButtonsMedia2 {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 100px;
+    gap: 10px;
+}
+.i {
+    width: 50px;
+    height: 50px;
+}
 
 
 

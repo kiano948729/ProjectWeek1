@@ -1,34 +1,34 @@
-<?php
-$current_page = basename($_SERVER['PHP_SELF']);
-?>  
 <h1>
     de lessen in deze opleiding
 </h1>
-<div>
-    website 1
+<div class="lessen-Website">
+   <P>website 1</P>
 </div>
-<div>
-    basis-programmeren
+<div class="lessen-Website">
+    <p>basis-programmeren</p>
 </div>
-<div>
-    engels 
+<div class="lessen-Website">
+    <p>engels</p> 
 </div>
-<div>
-    nederlands  
+<div class="lessen-Website">
+    <p>nederlands</p>
 </div>
-<div>
-    rekenen
+<div class="lessen-Website">
+    <p>rekenen</p>
 </div>
-<div>
-    burgerschap
+<div class="lessen-Website">
+    <p>burgerschap</p>
 </div>
-<div>
-    SLB
+<div class="lessen-Website">
+    <p>SLB</p>
 </div>
-<div>
-    sport op maat
+<div class="lessen-Website">
+   <p>sport op maat</p>
 </div>
-<div>
-    projectweek
+<div class="lessen-Website">
+    <p>projectweek</p>
 </div>
+<?php
+$current_page = basename($_SERVER['PHP_SELF']);
+?>
 

@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="css/style.css">
+<div class="ButtonsMedia">
 <a href="https://www.youtube.com/@rocnijmegen/videos">
     <i class="fa-brands fa-square-youtube"></i>
 </a>
@@ -11,3 +12,4 @@
 <a href="https://x.com/rocnijmegen">
     <i class="fa-brands fa-square-x-twitter"></i>
 </a>
+</div>

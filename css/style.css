@@ -209,7 +209,11 @@ body{
 
 
 /* overig pagina */
-
+.ButtonsMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

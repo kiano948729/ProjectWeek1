@@ -14,7 +14,7 @@
         <?php require_once("components/header.php"); ?>
     </header>
     <main>
-
+        
     </main>
     <footer>
         <?php require_once("components/footer.php"); ?>

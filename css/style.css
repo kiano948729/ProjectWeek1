@@ -5,25 +5,36 @@
 
 body {
     background-color: rgb(141, 142, 145);
+    margin: 0% 2%;
 }
 
 
+/* General Header Styling */
 header {
+    background: linear-gradient(135deg, #b7b0be, #575b61);
     margin: 0 auto;
-    padding: 10px 0;
-    width: 90%; 
-    max-width: 1200px; 
+    padding: 20px 0;
+    width: 95%; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .title img {
-    height: 60px; 
+    margin-left: 20px;
+    height: 70px;
     width: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.title img:hover {
+    transform: rotate(15deg); 
 }
 
 .nav-links {
@@ -31,22 +42,27 @@ header {
     gap: 20px;
     flex-grow: 1;
     justify-content: center;
+    align-items: center;
+    padding: 0 20px;
 }
 
 .nav-links a {
-    color: #fff;
+    color: white;
     text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-weight: 500;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 30px; 
+    font-weight: 600;
+    transition: all 0.4s ease; 
+    background: rgba(255, 255, 255, 0.2); 
 }
 
 .nav-links a.active,
 .nav-links a:hover {
-    background-color: #243241;
-    color: white;
-    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.4);
+    color: #8f96a3;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     font-weight: bold;
 }
 
@@ -56,20 +72,26 @@ header {
 }
 
 .login-link a {
-    color: #fff;
+    color: white;
     text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #243241;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #8f96a3;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
 }
 
 .login-link a.active,
 .login-link a:hover {
-    background-color: #1e2b35;
-    transform: scale(1.05);
+    background-color: #afa7b7; 
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     font-weight: bold;
 }
+
 
 
 

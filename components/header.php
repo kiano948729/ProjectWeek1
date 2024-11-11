@@ -4,7 +4,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <header>
     <div class="header-container">
         <div class="title">
-            <img src="img/image copy.png" alt="Logo">
+            <a href="../index.php"><img src="img/image copy.png" alt="Logo"></a>
         </div>
         <nav class="nav-links">
             <a href="../index.php" 

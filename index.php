@@ -10,7 +10,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <script src="https://kit.fontawesome.com/5321476408.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-
 <body>
     <header>
         <?php require_once("components/header.php"); ?>

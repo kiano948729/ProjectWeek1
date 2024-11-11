@@ -275,12 +275,12 @@ header {
 
 
 
-<<<<<<< HEAD
+
 /* overig pagina */
 .ButtonsMedia {
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-color: rgba(64, 44, 84)
 }
 
 
@@ -327,6 +327,6 @@ header {
 
 
 
-=======
+
 /* overig pagina */
->>>>>>> 6fcf2df017a89e2104e864f8355fce031c5667e1
+

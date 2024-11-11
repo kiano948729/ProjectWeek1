@@ -1,10 +1,15 @@
 <link rel="stylesheet" href="css/style.css">
-// header:
-<i class="fa-solid fa-house"></i>
-<i class="fa-solid fa-person-chalkboard"></i>
-// footer:
-<i class="fa-brands fa-square-facebook"></i>
-<i class="fa-brands fa-square-instagram"></i>
-<i class="fa-brands fa-square-x-twitter"></i>
-<i class="fa-brands fa-square-youtube"></i>
-<div class="FooterBackground"></div>
+<div class="ButtonsMedia">
+<a href="https://www.youtube.com/@rocnijmegen/videos">
+    <i class="fa-brands fa-square-youtube"></i>
+</a>
+<a href="https://www.facebook.com/rocnijmegen/?locale=nl_NL">
+    <i class="fa-brands fa-square-facebook"></i>
+</a>
+<a href="https://www.instagram.com/rocnijmegen/">
+    <i class="fa-brands fa-square-instagram"></i>
+</a>
+<a href="https://x.com/rocnijmegen">
+    <i class="fa-brands fa-square-x-twitter"></i>
+</a>
+</div>

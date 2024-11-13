@@ -25,22 +25,22 @@
         <div class="Footer-right-row-bottom">
             <div class="Footer-icons-bottom-row">
                 <a class="Footer-Link" href="https://www.youtube.com/@rocnijmegen/videos">
-                    <i class="fa-brands fa-square-youtube"></i>
+                    <i class="fa-brands fa-youtube"></i>
                 </a>
             </div>
             <div class="Footer-icons-bottom-row">
                 <a class="Footer-Link" href="https://www.facebook.com/rocnijmegen/?locale=nl_NL">
-                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
                 </a>
             </div>
             <div class="Footer-icons-bottom-row">
                 <a class="Footer-Link" href="https://www.instagram.com/rocnijmegen/">
-                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-instagram"></i>
                 </a>
             </div>
             <div class="Footer-icons-bottom-row">
                 <a class="Footer-Link" href="https://x.com/rocnijmegen">
-                    <i class="fa-brands fa-square-x-twitter"></i>
+                    <i class="fa-brands fa-twitter"></i>    
                 </a>
             </div>
         </div>

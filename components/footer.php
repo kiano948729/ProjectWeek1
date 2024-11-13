@@ -6,6 +6,10 @@
 <body>
     <div class="footer-body">
         <link rel="stylesheet" href="css/style.css">
+<<<<<<< HEAD
+=======
+
+>>>>>>> c879fecf077dcb61297760318f8684945f3afea1
 <footer class="Footer-Bottom-row">
     <div class="Footer-invisible-left-row-bottom"></div>
         <nav class="Footer-middle-row-bottom">
@@ -47,4 +51,7 @@
         </div>
 </footer>
 </body>
+<<<<<<< HEAD
     
+=======
+>>>>>>> c879fecf077dcb61297760318f8684945f3afea1

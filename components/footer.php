@@ -10,16 +10,16 @@
     <div class="Footer-invisible-left-row-bottom"></div>
         <nav class="Footer-middle-row-bottom">
             <div class="Footer-middle-row-texts">
-                <a href="index.php" class="Footer-White-Text">Home</a>
+                <a class="Footer-White-Text"href="../index.php">Home</a>
             </div>
             <div class="Footer-middle-row-texts">
                 <a href="resource/lessen.php" class="Footer-White-Text">Lessen</a>
             </div>
             <div class="Footer-middle-row-texts">
-                <a href="reizen.php" class="Footer-White-Text">Reizen</a>
+                <a class="Footer-White-Text"href="../reizen.php">Reizen</a>
             </div>
             <div class="Footer-middle-row-texts">
-                <a href="overig.php" class="Footer-White-Text">Overige</a>
+                <a class="Footer-White-Text"href="../resource/overig.php">Overige</a>
             </div>
         </nav>
         <div class="Footer-invisible-right-row-bottom"></div>
@@ -41,8 +41,7 @@
             </div>
             <div class="Footer-icons-bottom-row">
                 <a class="Footer-Link" href="https://x.com/rocnijmegen">
-                    <i class="fa-brands fa-twitter"></i>    
-                </a>
+                    <i class="fa-brands fa-twitter"></i> 
             </div>
         </div>
         </div>

@@ -1,5 +1,6 @@
+<link rel="stylesheet" href="css/style.css">
 <h1>
-    de lessen in deze opleiding
+    <p>de lessen in deze opleiding</p>
 </h1>
 <div class="lessen-Website">
    <P>website 1</P>

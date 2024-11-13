@@ -1,10 +1,12 @@
 :root {
     --blue: #1e90ff;
     --white: #ffffff;
+    --roc-paars: #6A1B9A; /* voorbeeld paars */
+    --roc-blauw: #2196F3; /* voorbeeld blauw */
 }
 
 body {
-    background-color: rgb(141, 142, 145);
+    background: linear-gradient(135deg, #b7b0be, #575b61);
     margin: 0% 2%;
 }
 
@@ -97,8 +99,56 @@ header {
     font-weight: bold;
 }
 
-
-
+main div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, #b7b0be, #575b61);
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 95%; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+main div img{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 50%;
+}
+.one h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    color: #fff;
+  }
+  .one h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: var(--roc-paars);
+  }
+  .one h1:after {
+    width: 100px;
+    height: 2px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: var(--roc-paars);
+  }
+  .img-div{
+    display: flex;
+    justify-content:center;
+  }
+  
 
 
 

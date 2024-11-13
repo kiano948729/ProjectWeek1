@@ -22,7 +22,21 @@
                 <a href="../lessen.php" class="cta-button">Ontdek meer</a>
             </div>
             <div class="hero-image">
-                <img src="img/image copy 3.png" alt="Afbeelding van ROC Nijmegen">
+                <div class="hero-section-not-main-1">
+                    <img src="img/image copy 3.png" alt="Afbeelding van ROC Nijmegen">
+                </div>
+            </div>
+        </section>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Bekijk deze video</h1>
+            </div>
+            <div class="hero-image">
+                <div class="hero-section-not-main-1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/a23-gb3hxHU" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
             </div>
         </section>
     </main>

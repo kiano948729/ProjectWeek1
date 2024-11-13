@@ -18,7 +18,7 @@
         <div class="overig-ContainerBedrijven">
             <div class="overig-ContainerCenter">
                 <div class="overige-row">
-                    <div class="hero-section-not-main-1">
+                    <div class="hero-section-not-main-3">
                         <h1 class="overig-White-Text">Bedrijven die Java gebruiken</h1>
                     </div>
                 </div>
@@ -50,38 +50,43 @@
             </div>
         </div>
 
-        <!-- Vakanties -->
+
         <div class="overig-ContainerVakanties">
             <div class="overig-ContainerCenter">
-                <div class="hero-section-not-main-1">
+                <div class="hero-section-not-main-3">
                     <h1 class="overig-White-Text">Vakanties</h1>
-                    <p class="overig-White-Text">Hieronder vindt u de data van de komende vakanties. Dit zijn de
-                        periodes waarin de meeste medewerkers vakantie nemen, en daarom kunnen er veranderingen zijn in
-                        de beschikbaarheid van bepaalde diensten. Zorg ervoor dat je tijdig je vakantie plant!</p>
                 </div>
                 <div class="overig-row">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    <h2 class="overig-White-Text">23 dec '24 - 05 jan '25</h2>
+                    <div class="hero-section-not-main-1">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <h2 class="overig-White-Text">23 dec '24 - 05 jan '25</h2>
+                    </div>
                     <p class="overig-White-Text">De kerstvakantie is een tijd om te ontspannen en tijd door te brengen
                         met familie en vrienden. Deze vakantie duurt twee weken, van de kerstperiode tot net na het
                         nieuwe jaar.</p>
                 </div>
                 <div class="overig-row">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    <h2 class="overig-White-Text">03 mrt '25 - 07 mrt '25</h2>
+                    <div class="hero-section-not-main-1">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <h2 class="overig-White-Text">03 mrt '25 - 07 mrt '25</h2>
+                    </div>
                     <p class="overig-White-Text">Deze korte vakantie valt in de lente en biedt een welkome pauze voor
                         medewerkers om even op adem te komen voordat de drukke zomerseizoen begint.</p>
                 </div>
                 <div class="overig-row">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    <h2 class="overig-White-Text">21 apr '25 - 05 mei '25</h2>
+                    <div class="hero-section-not-main-1">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <h2 class="overig-White-Text">21 apr '25 - 05 mei '25</h2>
+                    </div>
                     <p class="overig-White-Text">De lentevakantie is perfect om even tot rust te komen, met enkele
                         feestdagen zoals Koningsdag (27 april) en Bevrijdingsdag (5 mei) die vallen tijdens deze
                         periode.</p>
                 </div>
                 <div class="overig-row">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    <h2 class="overig-White-Text">14 jul '25 - 22 aug '25</h2>
+                    <div class="hero-section-not-main-1">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <h2 class="overig-White-Text">14 jul '25 - 22 aug '25</h2>
+                    </div>
                     <p class="overig-White-Text">De zomervakantie is de langste vakantie van het jaar, en biedt
                         medewerkers de kans om te genieten van de zomer, vakanties en tijd met familie. Dit is ook de
                         drukste periode voor vakanties in Nederland.</p>

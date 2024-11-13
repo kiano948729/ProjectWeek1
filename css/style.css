@@ -85,16 +85,29 @@ header {
     border-radius: 30px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #8f96a3;
+    background: linear-gradient(45deg, 
+    red, 
+    yellow, 
+    green, 
+    rgb(135, 116, 16), 
+    purple, 
+    pink, 
+    orange, 
+    cyan, 
+    lime, 
+    violet, 
+    indigo, 
+    gold);    
     transition: all 0.4s ease;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
+    margin-right: 10px;
 }
 
 .login-link a.active,
 .login-link a:hover {
-    background-color: rgba(157, 211, 226, 0.4);; 
-    transform: scale(1.1);
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    background-color: rgba(157, 211, 226, 0.4);
+    transform: scale(1.4); 
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
     font-weight: bold;
 }
 
@@ -154,6 +167,20 @@ header {
     width: 100%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
+.hero-section-not-main-3{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    color: var(--white);
+    background: linear-gradient(135deg, #30424b, #405262), url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    width: 92%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
 
 .hero-content h1 {
     font-size: 3em;
@@ -174,9 +201,21 @@ header {
     margin-top: 20px;
     padding: 15px 30px;
     font-size: 1.2em;
-    font-weight: bold;
-    color: var(--white);
-    background-color: var(--roc-blauw);
+    font-weight:bolder;
+    color: white;
+    background: linear-gradient(45deg, 
+    red, 
+    yellow, 
+    green, 
+    rgb(135, 116, 16), 
+    purple, 
+    pink, 
+    orange, 
+    cyan, 
+    lime, 
+    violet, 
+    indigo, 
+    gold);    
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -193,7 +232,7 @@ header {
 
 .hero-image img {
     width: 100%;
-    max-width: 500px;
+    max-width: 560px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     animation: slideInRight 2s ease-in-out;
@@ -630,11 +669,11 @@ i{
 }
 
 .overig-FullContainer {
-    width: 80%;
+    margin-top: 20px;
+    width: 95%;
+margin-left: 45px;
     background: linear-gradient(135deg, #30424b, #405262);
     border-radius: 20px;
-    padding: 20px;
-    margin: 0 auto;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 

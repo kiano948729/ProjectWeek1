@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="footer-body">
     <link rel="stylesheet" href="css/style.css">
 
 <footer class="Footer-Bottom-row">
@@ -43,6 +44,7 @@
                     <i class="fa-brands fa-twitter"></i>    
                 </a>
             </div>
+        </div>
         </div>
 </footer>
 </body>

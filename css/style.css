@@ -3,6 +3,7 @@
     --white: #ffffff;
     --roc-paars: #6A1B9A; /* voorbeeld paars */
     --roc-blauw: #2196F3; /* voorbeeld blauw */
+    --roc-wit: #fff;
 }
 
 body {
@@ -67,8 +68,6 @@ header {
 .nav-links a.active,
 .nav-links a:hover {
     background: rgba(157, 211, 226, 0.4);
-    color: #8f96a3;
-    
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     font-weight: bold;
@@ -93,8 +92,7 @@ header {
 
 .login-link a.active,
 .login-link a:hover {
-    background-color: #afa7b7; 
-    color: white;
+    background-color: rgba(157, 211, 226, 0.4);; 
     transform: scale(1.1);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     font-weight: bold;
@@ -106,12 +104,39 @@ header {
     justify-content: space-between;
     padding: 50px;
     color: var(--white);
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/background.jpg');
+    background: linear-gradient(135deg, #30424b, #405262), url('img/background.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 15px;
     margin: 20px auto;
     max-width: 89.5%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.hero-section-not-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    color: var(--white);
+    background: linear-gradient(135deg, #30424b, #405262), url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+.hero-section-not-main-1{
+    margin-top: 20px    ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    color: var(--white);
+    background: linear-gradient(135deg, #30424b, #405262), url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    width: 89.5%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -177,13 +202,169 @@ header {
         opacity: 1;
     }
 }
+
+.reizen-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 30px auto; 
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    color: #f5f5f5;
+    animation: fadeIn 1s ease-in-out;
+    transition: transform 0.3s;
+    text-align: center; 
+}
+
+.reizen-section:hover {
+    transform: scale(1.02); 
+}
+
+.title {
+    font-size: 2em;
+    color: var(--roc-wit);
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    font-size: 1.6em;
+    color: var(--roc-wit);
+    margin-top: 20px;
+    font-weight: 700;
+    border-bottom: 3px solid var(--roc-wit);
+    padding-bottom: 8px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.voorzieningen-list, .vergoedingen-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.voorzieningen-list li, .vergoedingen-list li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 12px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: slideInRight 2s ease-in-out;
+}
+
+.voorzieningen-list li:hover, .vergoedingen-list li:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+i{
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+    margin-right: 15px;
+    color: var(--roc-wit);
+}
+
+.voorzieningen-list li:hover i, .vergoedingen-list li:hover .icon {
+    color: #ffeb3b;
+}
+
+.voorzieningen-list li strong, .vergoedingen-list li strong {
+    font-weight: 700;
+    color: #ffeb3b; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.reizen-main{
+    display: flex;
+    justify-content: center;
+}
+/* lessen-Website */
+.body-lessen {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    color: var(--white);
+    background: linear-gradient(135deg, #30424b, #405262), url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 89.5%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+}
+.lessen-mainbox{
+    display: flex;
+    background: linear-gradient(135deg, #30424b, #405262), url('img/background.jpg');
+    flex-direction: column;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    height: 2000px;
+}
+.lessen-Website {
+    display: flex;  
+    color: gray;
+    justify-content: center;
+    width: 107.8%;
+    background: linear-gradient(135deg, #30424b, #405262), url('img/background.jpg');
+    margin-top: 20px;
+    flex-direction: column;
+    box-shadow:  0 12px 24px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.lessen-header1 {
+    display: flex;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    justify-content: center;
+}
+
+.lessen-header2 {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: ffeb3b;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.lessen-tekst {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 90%;
+    margin: 2%;
+}
+
+
+
   
 
 
 
 
 
-
+    
 
 
 
@@ -275,12 +456,6 @@ header {
 
 
 /* lessen pagina */
-.lessen-Website{
-    display: flex;
-    border:solid; color: pink;
-    margin-left: 15%;
-    width: 70%;
-}
 
 
 

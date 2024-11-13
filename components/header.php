@@ -17,8 +17,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 class="<?php echo $current_page == 'overig.php' ? 'active' : ''; ?>">Overig</a>
         </nav>
         <div class="login-link">
-            <a href="../login.php"
-                class="<?php echo $current_page == 'login.php' ? 'active' : ''; ?>">Login</a>
+            <a href="https://www.roc-nijmegen.nl/mbo-opleidingen/ict-media/ict/software-developer-bol"
+                class="<?php echo $current_page == 'login.php' ? 'active' : ''; ?>">Registeren</a>
         </div>
     </div>
 </header>

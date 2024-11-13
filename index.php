@@ -27,7 +27,8 @@
                 </div>
             </div>
         </section>
-        <section class="hero-section">
+        <section class="hero-section
+        ">
             <div class="hero-content">
                 <h1>Bekijk deze video</h1>
             </div>

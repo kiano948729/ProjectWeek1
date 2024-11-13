@@ -36,5 +36,4 @@
                 </a>
             </div>
         </div>
-        <!--einde bodem rij--> 
 </footer>

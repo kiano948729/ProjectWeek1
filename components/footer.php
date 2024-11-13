@@ -10,16 +10,16 @@
     <div class="Footer-invisible-left-row-bottom"></div>
         <nav class="Footer-middle-row-bottom">
             <div class="Footer-middle-row-texts">
-                <a href="About.html" class="Footer-White-Text">Home</a>
+                <a href="index.php" class="Footer-White-Text">Home</a>
             </div>
             <div class="Footer-middle-row-texts">
-                <a href="About.html" class="Footer-White-Text">Lessen</a>
+                <a href="resource/lessen.php" class="Footer-White-Text">Lessen</a>
             </div>
             <div class="Footer-middle-row-texts">
-                <a href="About.html" class="Footer-White-Text">Reizen</a>
+                <a href="reizen.php" class="Footer-White-Text">Reizen</a>
             </div>
             <div class="Footer-middle-row-texts">
-                <a href="About.html" class="Footer-White-Text">Overige</a>
+                <a href="overig.php" class="Footer-White-Text">Overige</a>
             </div>
         </nav>
         <div class="Footer-invisible-right-row-bottom"></div>

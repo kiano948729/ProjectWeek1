@@ -45,6 +45,12 @@ header {
 .title img:hover {
     transform: rotate(15deg); 
 }
+.Footer-invisible-left-row-bottom img{
+    transition: transform 0.9s ease-in-out;
+}
+.Footer-invisible-left-row-bottom img:hover{
+    transform: rotate(360deg);
+}
 
 .nav-links {
     display: flex;
@@ -91,31 +97,22 @@ header {
     border-radius: 30px;
     font-size: 18px;
     font-weight: 600;
-    background: linear-gradient(45deg, 
-    red, 
-    yellow, 
-    green, 
-    rgb(135, 116, 16), 
-    purple, 
-    pink, 
-    orange, 
-    cyan, 
-    lime, 
-    violet, 
-    indigo, 
-    gold);    
-    transition: all 0.4s ease;
+    background: linear-gradient(45deg, #5e7f80, #6fa3bb, #8fc1cc, #d5e6eb); /* Subtiele kleurovergang */
+    border: 2px solid #6fa3bb; /* Toegevoegde rand voor extra nadruk */
+    transition: all 0.3s ease; /* Iets kortere overgangsduur voor soepelere ervaring */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
     margin-right: 10px;
 }
 
 .login-link a.active,
 .login-link a:hover {
-    background-color: rgba(157, 211, 226, 0.4);
-    transform: scale(1.4); 
+    background-color: rgba(157, 211, 226, 0.6); /* Lichtere hover achtergrond */
+    transform: scale(1.5); /* Subtiele vergroting */
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
     font-weight: bold;
+    border-color: #4a8ca1; /* Versterkte randkleur bij hover */
 }
+
 
 .hero-section {
     display: flex;
@@ -233,6 +230,8 @@ header {
     transition: background-color 0.3s, transform 0.3s;
     animation: fadeIn 2s ease-in-out;
     text-decoration: none;
+    animation: fadeIn 1.5s ease-in-out;
+
 }
 
 .cta-button:hover {
@@ -324,6 +323,12 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     animation: slideInRight 2s ease-in-out;
 }
+.voorzieningen-list li img{
+    height: 60px;
+    width: 200px;
+    opacity: 10%;
+    
+}
 
 .voorzieningen-list li:hover, .vergoedingen-list li:hover {
     background-color: rgba(255, 255, 255, 0.15);
@@ -383,7 +388,14 @@ i{
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 20px;
-    height: 2000px;
+    height: 2150px;
+}
+.lessen-tekst a img{
+    height: 50px;
+    border-radius: 20px;
+    opacity: 95%;
+    margin-left: 10px;
+
 }
 .lessen-Website {
     display: flex;  
@@ -420,6 +432,16 @@ i{
     color: white;
     width: 90%;
     margin: 2%;
+}
+.Footer-invisible-left-row-bottom{
+    margin-left: 20px;
+    
+}
+.Footer-invisible-left-row-bottom a img{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    opacity: 50%;
 }
 
 
@@ -664,9 +686,14 @@ i{
 
 .footer-body {
     background-color: rgb(36, 30, 41);
+    width: 95%;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
+    margin-left: 45px;
     align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .overig-White-Text {

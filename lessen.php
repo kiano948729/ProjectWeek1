@@ -31,7 +31,7 @@
                 <p class="lessen-tekst">
                     bij dit vak ga je leren hoe je een programma schrijft, dit doen we met Java.
                     het programma Eclipse grbruiken we hieroor.
-                    je zal net als bij website 1 uitleg krijgen over
+                    je zal net als bij website 1 uitleg krijgen over<a href="https://www.youtube.com/watch?v=BBJa32lCaaY"><img src="../img/gif/Ontwerp zonder titel (8).gif" alt="Logo"></a>
                 </p>
             </div>
             <div class="lessen-Website">
@@ -54,7 +54,7 @@
                 <p class="lessen-tekst">
                     rekenen is een momentopnamen voor je rekenvaardigheid. je kan hiervoor zeer snel al examen en
                     vrijstelling voor halen
-                    als je op niveau zit.
+                    als je op niveau zit.<a href="https://www.youtube.com/watch?v=BBJa32lCaaY"><img src="../img/gif/Ontwerp zonder titel (9).gif" alt="Logo"></a>
                 </p>
             </div>
             <div class="lessen-Website">
@@ -75,7 +75,7 @@
                 <p class="lessen-tekst">
                     sport op maat is geen vast onderdeel, maar komt wel terug in de opleiding, je moet je hierbij
                     inschrijven
-                    bij sportuurtjes in de omgeving, voor 15 uur in het 1ste jaar.
+                    bij sportuurtjes in de omgeving, voor 15 uur in het 1ste jaar.<a href="https://www.youtube.com/watch?v=BBJa32lCaaY"><img src="../img/gif/Ontwerp zonder titel (10).gif" alt="Logo"></a>
                 </p>
             </div>
             <div class="lessen-Website">

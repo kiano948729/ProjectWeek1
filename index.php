@@ -27,10 +27,9 @@
                 </div>
             </div>
         </section>
-        <section class="hero-section
-        ">
+        <section class="hero-section">
             <div class="hero-content">
-                <h1>Bekijk deze video</h1>
+                <h1>Bekijk deze <a href="https://www.youtube.com/watch?v=BBJa32lCaaY" class="flashbang">video</a></h1>
             </div>
             <div class="hero-image">
                 <div class="hero-section-not-main-1">

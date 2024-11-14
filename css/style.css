@@ -9,6 +9,12 @@
 body {
     background: linear-gradient(135deg, #30424b, #405262);
     margin: 0% 2%;
+    background-image: url('../img/gif/Ontwerp zonder titel (2).gif'); /* Replace with the actual path to your GIF */
+    background-size: cover;       /* Scales the GIF to cover the whole body */
+    background-repeat: no-repeat; /* Prevents the GIF from repeating */
+    background-position: center;  
+    background-attachment: fixed;
+
 }
 
 
@@ -31,7 +37,7 @@ header {
 
 .title img {
     margin-left: 20px;
-    height: 70px;
+    height: 100px;
     width: auto;
     transition: transform 0.3s ease-in-out;
 }
@@ -124,6 +130,7 @@ header {
     margin: 20px auto;
     max-width: 89.5%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    opacity: 0.96;
 }
 .hero-section-not-main{
     display: flex;
@@ -137,6 +144,7 @@ header {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     width: 100%;
+    opacity: 0.96;
 }
 .hero-section-not-main-1{
     margin-top: 20px;
@@ -151,6 +159,7 @@ header {
     border-radius: 15px;
     width: 89.5%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    opacity: 0.96;
 }
 .hero-section-not-main-2{
     margin-top: 5px;
@@ -166,6 +175,7 @@ header {
     /* margin: 0px 10px; */
     width: 100%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    opacity: 0.96;
 }
 .hero-section-not-main-3{
     margin-top: 20px;
@@ -180,6 +190,7 @@ header {
     border-radius: 15px;
     width: 92%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    opacity: 0.96;
 }
 
 .hero-content h1 {
@@ -361,6 +372,7 @@ i{
     margin: 20px auto;
     max-width: 89.5%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    opacity: 0,96;
 
 }
 .lessen-mainbox{
@@ -671,7 +683,7 @@ i{
 .overig-FullContainer {
     margin-top: 20px;
     width: 95%;
-margin-left: 45px;
+    margin-left: 45px;
     background: linear-gradient(135deg, #30424b, #405262);
     border-radius: 20px;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
@@ -728,8 +740,10 @@ i {
 }
 
 .Footer-Bottom-row {
-    background-color: #181c2c;
-    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 95%;
+    border-radius: 20px;
     height: 130px;
     display: flex;
     align-items: center;
@@ -778,11 +792,33 @@ i {
 .Footer-Link {
     font-size: 40px;
 }
+.Footer-Link1 {
+    font-size: 40px;
+}
+.Footer-Link2 {
+    font-size: 40px;
+}
+.Footer-Link3 {
+    font-size: 40px;
+}
+.Footer-Link i {
+    color: red;
+}
+.Footer-Link1 i{
+    color: rgb(43, 176, 220);
+}
+.Footer-Link2 i{
+    color: rgb(143, 47, 143);
+}
+.Footer-Link3 i {
+    color: rgb(43, 176, 220);
+}
 
 .Footer-White-Text {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 
@@ -820,3 +856,10 @@ i {
 
 /* overig pagina */
 
+.flash{
+    background-color: #fff;
+}
+.flashbang{
+    text-decoration: none;
+    color: #fff;
+}

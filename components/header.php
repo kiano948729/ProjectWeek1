@@ -3,8 +3,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
 ?>
 <header>
     <div class="header-container">
-        <div class="title">
-            <a href="../index.php"><img src="../img/image copy.png" alt="Logo"></a>
+        <div class="title"> 
+            <a href="../index.php"><img src="../img/gif/Ontwerp zonder titel (3).gif" alt="Logo"></a>
         </div>
         <nav class="nav-links">
             <a href="../index.php" class="<?php echo $current_page == 'index.php' ? 'active' : ''; ?>">Home</a>

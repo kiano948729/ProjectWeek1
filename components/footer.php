@@ -6,25 +6,15 @@
 <body>
     <div class="footer-body">
         <link rel="stylesheet" href="css/style.css">
-<<<<<<< HEAD
-=======
-
->>>>>>> c879fecf077dcb61297760318f8684945f3afea1
 <footer class="Footer-Bottom-row">
     <div class="Footer-invisible-left-row-bottom"></div>
-        <nav class="Footer-middle-row-bottom">
-            <div class="Footer-middle-row-texts">
-                <a class="Footer-White-Text"href="../index.php">Home</a>
-            </div>
-            <div class="Footer-middle-row-texts">
-                <a href="resource/lessen.php" class="Footer-White-Text">Lessen</a>
-            </div>
-            <div class="Footer-middle-row-texts">
-                <a class="Footer-White-Text"href="../reizen.php">Reizen</a>
-            </div>
-            <div class="Footer-middle-row-texts">
-                <a class="Footer-White-Text"href="../resource/overig.php">Overige</a>
-            </div>
+    <nav class="nav-links">
+            <a href="../index.php" class="<?php echo $current_page == 'index.php' ? 'active' : ''; ?>">Home</a>
+            <a href="../lessen.php" class="<?php echo $current_page == 'lessen.php' ? 'active' : ''; ?>">Lessen</a>
+            <a href="../reizen.php"
+                class="<?php echo $current_page == 'reizen.php' ? 'active' : ''; ?>">Voorzieningen</a>
+            <a href="../resource/overig.php"
+                class="<?php echo $current_page == 'overig.php' ? 'active' : ''; ?>">Overig</a>
         </nav>
         <div class="Footer-invisible-right-row-bottom"></div>
         <div class="Footer-right-row-bottom">
@@ -34,24 +24,20 @@
                 </a>
             </div>
             <div class="Footer-icons-bottom-row">
-                <a class="Footer-Link" href="https://www.facebook.com/rocnijmegen/?locale=nl_NL">
+                <a class="Footer-Link1" href="https://www.facebook.com/rocnijmegen/?locale=nl_NL">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
             </div>
             <div class="Footer-icons-bottom-row">
-                <a class="Footer-Link" href="https://www.instagram.com/rocnijmegen/">
+                <a class="Footer-Link2" href="https://www.instagram.com/rocnijmegen/">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
             </div>
             <div class="Footer-icons-bottom-row">
-                <a class="Footer-Link" href="https://x.com/rocnijmegen">
+                <a class="Footer-Link3" href="https://x.com/rocnijmegen">
                     <i class="fa-brands fa-twitter"></i> 
             </div>
         </div>
         </div>
 </footer>
 </body>
-<<<<<<< HEAD
-    
-=======
->>>>>>> c879fecf077dcb61297760318f8684945f3afea1

@@ -6,6 +6,7 @@
 <body>
     <div class="footer-body">
         <link rel="stylesheet" href="css/style.css">
+        <!-- Start Footer-->
 <footer class="Footer-Bottom-row">
     <div class="Footer-invisible-left-row-bottom"></div>
     <nav class="nav-links">
@@ -39,5 +40,6 @@
             </div>
         </div>
         </div>
+        <!-- Einde Footer-->
 </footer>
 </body>

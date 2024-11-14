@@ -8,13 +8,16 @@
 </head>
 
 <body>
+    <!-- Start header-->
     <header>
         <?php require_once("../components/header.php"); ?>
+          <!-- Einde header-->
     </header>
+  
 
     <div class="overig-FullContainer">
 
-        <!-- Bedrijven die Java gebruiken -->
+        <!-- Start bedrijven die Java gebruiken -->
         <div class="overig-ContainerBedrijven">
             <div class="overig-ContainerCenter">
                 <div class="overige-row">
@@ -48,9 +51,10 @@
                         sectoren.</p>
                 </div>
             </div>
+             <!-- Einde bedrijven die Java gebruiken -->
         </div>
 
-
+        <!-- Start vakanties -->
         <div class="overig-ContainerVakanties">
             <div class="overig-ContainerCenter">
                 <div class="hero-section-not-main-3">
@@ -93,10 +97,11 @@
                 </div>
             </div>
         </div>
-
+         <!-- Einde vakanties-->
     </div>
-
+    <!-- Start Footer-->
     <footer>
         <?php require_once("../components/footer.php"); ?>
     </footer>
+    <!-- Einde Footer-->
 </body>

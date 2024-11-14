@@ -22,7 +22,7 @@
             <div class="hero-content">
                 <h1>Welkom bij ROC Nijmegen</h1>
                 <p>Ontdek een wereld vol mogelijkheden en leertrajecten!</p>
-                <a href="../lessen.php" class="cta-button">Ontdek meer</a>
+                <a href="../resource/lessen.php" class="cta-button">Ontdek meer</a>
             </div>
             <div class="hero-image">
                 <div class="hero-section-not-main-1">
@@ -44,10 +44,8 @@
         </section>
         <!-- Einde main pagina-->
     </main>
-    <!-- Start footer-->
     <footer>
         <?php require_once("components/footer.php"); ?>
-        <!-- Einde footer-->
     </footer>
 </body>
 

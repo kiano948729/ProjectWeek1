@@ -8,16 +8,13 @@
 </head>
 
 <body>
-    <!-- Start header-->
-    <header>
+=    <header>
         <?php require_once("../components/header.php"); ?>
-          <!-- Einde header-->
-    </header>
+=    </header>
   
 
     <div class="overig-FullContainer">
 
-        <!-- Start bedrijven die Java gebruiken -->
         <div class="overig-ContainerBedrijven">
             <div class="overig-ContainerCenter">
                 <div class="overige-row">

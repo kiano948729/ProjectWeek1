@@ -12,7 +12,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <body>
      <!-- Start header-->
     <header>
-        <?php require_once("components/header.php"); ?>
+        <?php require_once("../components/header.php"); ?>
          <!-- Einde header-->
     </header>
     
@@ -62,7 +62,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     </main>
     <!-- Start footer-->
     <footer>
-        <?php require_once("components/footer.php"); ?>
+        <?php require_once("../components/footer.php"); ?>
         <!-- Einde footer-->
     </footer>
 </body>

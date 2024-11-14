@@ -11,10 +11,13 @@
 </head>
 
 <body>
+    <!-- Start header-->
     <header>
         <?php require_once("components/header.php"); ?>
+         <!-- Einde header-->
     </header>
     <main>
+         <!-- Start main pagina-->
         <section class="hero-section">
             <div class="hero-content">
                 <h1>Welkom bij ROC Nijmegen</h1>
@@ -39,9 +42,12 @@
                 </div>
             </div>
         </section>
+        <!-- Einde main pagina-->
     </main>
+    <!-- Start footer-->
     <footer>
         <?php require_once("components/footer.php"); ?>
+        <!-- Einde footer-->
     </footer>
 </body>
 

@@ -1,6 +1,7 @@
 <?php
 $current_page = basename($_SERVER['PHP_SELF']);
 ?>
+<!-- Start Footer-->
 <header>
     <div class="header-container">
         <div class="title"> 
@@ -17,4 +18,5 @@ $current_page = basename($_SERVER['PHP_SELF']);
         </div>
 
     </div>
+    <!-- Einde Footer-->
 </header>

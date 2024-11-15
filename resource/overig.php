@@ -96,9 +96,7 @@
         </div>
          <!-- Einde vakanties-->
     </div>
-    <!-- Start Footer-->
     <footer>
         <?php require_once("../components/footer.php"); ?>
     </footer>
-    <!-- Einde Footer-->
 </body>

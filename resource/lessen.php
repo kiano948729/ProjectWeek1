@@ -7,12 +7,9 @@
 </head>
 
 <body>
-    <!-- Start header-->
     <header>
         <?php require_once("../components/header.php"); ?>
-        <!-- Einde header-->
     </header>
-    <!-- Start lessen sectie-->
     <div class="body-lessen">
         <div class="lessen-mainbox">
             <link rel="stylesheet" href="css/style.css">
@@ -119,10 +116,7 @@
         </div>
         <!-- Einde lessen sectie-->
     </div>
-    <!-- Start footer-->
     <footer>
-        
         <?php require_once("../components/footer.php"); ?>
-         <!-- Einde footer-->
     </footer>
 </body>

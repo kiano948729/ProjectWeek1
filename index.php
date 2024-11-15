@@ -11,17 +11,14 @@
 </head>
 
 <body>
-    <!-- Start header-->
     <header>
         <?php require_once("components/header.php"); ?>
-         <!-- Einde header-->
     </header>
     <main>
-         <!-- Start main pagina-->
         <section class="hero-section">
             <div class="hero-content">
                 <h1>Welkom bij ROC Nijmegen</h1>
-                <h1>Software Developer</h1> 
+                <h1>Software Developer</h1>
                 <p>Ontdek een wereld vol mogelijkheden en leertrajecten!</p>
                 <a href="../resource/lessen.php" class="cta-button">Ontdek meer</a>
             </div>
@@ -43,7 +40,6 @@
                 </div>
             </div>
         </section>
-        <!-- Einde main pagina-->
     </main>
     <footer>
         <?php require_once("components/footer.php"); ?>

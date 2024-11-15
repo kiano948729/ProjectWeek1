@@ -10,14 +10,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
 </head>
 
 <body>
-     <!-- Start header-->
     <header>
         <?php require_once("../components/header.php"); ?>
-         <!-- Einde header-->
     </header>
-    
-    <!-- Start reizen sectie-->
-    <main class="reizen-main">
+        <main class="reizen-main">
         <section class="hero-section-not-main-1">
             <div class="hero-content">
                 <section class="reizen-section">
@@ -58,11 +54,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
             </div>
         </section>
-        <!-- Einde reizen sectie-->
     </main>
-    <!-- Start footer-->
     <footer>
         <?php require_once("../components/footer.php"); ?>
-        <!-- Einde footer-->
     </footer>
 </body>

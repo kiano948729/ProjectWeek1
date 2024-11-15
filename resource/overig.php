@@ -8,9 +8,9 @@
 </head>
 
 <body>
-=    <header>
+    <header>
         <?php require_once("../components/header.php"); ?>
-=    </header>
+    </header>
   
 
     <div class="overig-FullContainer">

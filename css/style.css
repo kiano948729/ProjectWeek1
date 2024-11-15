@@ -9,16 +9,15 @@
 body {
     background: linear-gradient(135deg, #30424b, #405262);
     margin: 0% 2%;
-    background-image: url('../img/gif/Ontwerp zonder titel (2).gif'); /* Replace with the actual path to your GIF */
-    background-size: cover;       /* Scales the GIF to cover the whole body */
-    background-repeat: no-repeat; /* Prevents the GIF from repeating */
+    background-image: url('../img/gif/Ontwerp zonder titel (2).gif'); 
+    background-size: cover;      
+    background-repeat: no-repeat; 
     background-position: center;  
     background-attachment: fixed;
 
 }
 
 
-/* General Header Styling */
 header {
     background: linear-gradient(135deg, #30424b, #405262);
     margin: 0 auto;
@@ -97,22 +96,28 @@ header {
     border-radius: 30px;
     font-size: 18px;
     font-weight: 600;
-    background: linear-gradient(45deg, #5e7f80, #6fa3bb, #8fc1cc, #d5e6eb); /* Subtiele kleurovergang */
-    border: 2px solid #6fa3bb; /* Toegevoegde rand voor extra nadruk */
-    transition: all 0.3s ease; /* Iets kortere overgangsduur voor soepelere ervaring */
+    background: linear-gradient(45deg, #5e7f80, #6fa3bb, #8fc1cc, #d5e6eb); 
+    border: 2px solid #6fa3bb; 
+    transition: all 0.3s ease;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
     margin-right: 10px;
 }
 
 .login-link a.active,
 .login-link a:hover {
-    background-color: rgba(157, 211, 226, 0.6); /* Lichtere hover achtergrond */
-    transform: scale(1.5); /* Subtiele vergroting */
+    background-color: rgba(157, 211, 226, 0.6);
+    transform: scale(1.5);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); 
     font-weight: bold;
-    border-color: #4a8ca1; /* Versterkte randkleur bij hover */
+    border-color: #4a8ca1; 
 }
-
+.lessen-meerInfo{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+}
 
 .hero-section {
     display: flex;
@@ -169,7 +174,6 @@ header {
     background-size: cover;
     background-position: center;
     border-radius: 15px;
-    /* margin: 0px 10px; */
     width: 100%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     opacity: 0.96;

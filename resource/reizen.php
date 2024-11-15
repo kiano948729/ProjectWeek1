@@ -29,7 +29,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                 Veilige
                                 stalling voor je fiets op de campus.</li>
                             <li><i class="fas fa-bus icon"></i><strong>Openbaar Vervoer:</strong> Goede bereikbaarheid
-                                met bus en trein, met nabije haltes.<a href="https://www.youtube.com/watch?v=BBJa32lCaaY"><img src="../img/gif/Ontwerp zonder titel (13).gif" alt="Logo"></a></li>
+                                met bus en trein, met nabije haltes.</li>
                             <li><i class="fas fa-parking icon"></i><strong>Parkeren:</strong>Parkeerplaatsen
                                 beschikbaar voor studenten die met de auto komen.</li>
                             <li><i class="fas fa-euro-sign icon"></i><strong>Reiskosten:</strong>Specifieke informatie
